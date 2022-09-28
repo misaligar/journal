@@ -1,0 +1,24 @@
+--- 
+title: "misaligar's Journal"
+author: "misaligar"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: misaligar/journal
+description: "Welcome to misaligar's Journal!"
+---
+
+# Hello world!
+
+What's up, folks?
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
